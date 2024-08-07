@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_IntMatProCore_16x16_8bits_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_IntMatProCore_16x16_8bits" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2200000000001fs"></ZoomEndTime>
+      <Cursor1Time time="2200000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="274"></NameColumnWidth>
+      <ValueColumnWidth column_width="160"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_Reset" type="logic">
+      <obj_property name="ElementShortName">tb_Reset</obj_property>
+      <obj_property name="ObjectShortName">tb_Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_Clock" type="logic">
+      <obj_property name="ElementShortName">tb_Clock</obj_property>
+      <obj_property name="ObjectShortName">tb_Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_WriteEnable" type="logic">
+      <obj_property name="ElementShortName">tb_WriteEnable</obj_property>
+      <obj_property name="ObjectShortName">tb_WriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_BufferSel" type="array">
+      <obj_property name="ElementShortName">tb_BufferSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_BufferSel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_WriteAddress" type="array">
+      <obj_property name="ElementShortName">tb_WriteAddress[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_WriteAddress[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_WriteData" type="array">
+      <obj_property name="ElementShortName">tb_WriteData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_WriteData[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_ReadAddress" type="array">
+      <obj_property name="ElementShortName">tb_ReadAddress[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_ReadAddress[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_ReadEnable" type="logic">
+      <obj_property name="ElementShortName">tb_ReadEnable</obj_property>
+      <obj_property name="ObjectShortName">tb_ReadEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_ReadData" type="array">
+      <obj_property name="ElementShortName">tb_ReadData[55:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_ReadData[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/tb_DataReady" type="logic">
+      <obj_property name="ElementShortName">tb_DataReady</obj_property>
+      <obj_property name="ObjectShortName">tb_DataReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/period" type="other">
+      <obj_property name="ElementShortName">period</obj_property>
+      <obj_property name="ObjectShortName">period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/nextState" type="other">
+      <obj_property name="ElementShortName">nextState</obj_property>
+      <obj_property name="ObjectShortName">nextState</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteEnableA" type="array">
+      <obj_property name="ElementShortName">iWriteEnableA[0:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteEnableA[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteEnableB" type="array">
+      <obj_property name="ElementShortName">iWriteEnableB[0:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteEnableB[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteEnableC" type="array">
+      <obj_property name="ElementShortName">iWriteEnableC[0:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteEnableC[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteEnableTemp" type="array">
+      <obj_property name="ElementShortName">iWriteEnableTemp[0:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteEnableTemp[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteEnableD" type="array">
+      <obj_property name="ElementShortName">iWriteEnableD[0:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteEnableD[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadEnableAB" type="logic">
+      <obj_property name="ElementShortName">iReadEnableAB</obj_property>
+      <obj_property name="ObjectShortName">iReadEnableAB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadEnableCTemp" type="logic">
+      <obj_property name="ElementShortName">iReadEnableCTemp</obj_property>
+      <obj_property name="ObjectShortName">iReadEnableCTemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadAddressA" type="array">
+      <obj_property name="ElementShortName">iReadAddressA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddressA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadAddressB" type="array">
+      <obj_property name="ElementShortName">iReadAddressB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddressB[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadAddressC" type="array">
+      <obj_property name="ElementShortName">iReadAddressC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddressC[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadAddressTemp" type="array">
+      <obj_property name="ElementShortName">iReadAddressTemp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddressTemp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteAddressTemp" type="array">
+      <obj_property name="ElementShortName">iWriteAddressTemp[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteAddressTemp[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteAddressD" type="array">
+      <obj_property name="ElementShortName">iWriteAddressD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteAddressD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iWriteAddressD1" type="array">
+      <obj_property name="ElementShortName">iWriteAddressD1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteAddressD1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iCountReset" type="logic">
+      <obj_property name="ElementShortName">iCountReset</obj_property>
+      <obj_property name="ObjectShortName">iCountReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iRowCountAReset" type="logic">
+      <obj_property name="ElementShortName">iRowCountAReset</obj_property>
+      <obj_property name="ObjectShortName">iRowCountAReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iColCountAReset" type="logic">
+      <obj_property name="ElementShortName">iColCountAReset</obj_property>
+      <obj_property name="ObjectShortName">iColCountAReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iRowCountBReset" type="logic">
+      <obj_property name="ElementShortName">iRowCountBReset</obj_property>
+      <obj_property name="ObjectShortName">iRowCountBReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iColCountBReset" type="logic">
+      <obj_property name="ElementShortName">iColCountBReset</obj_property>
+      <obj_property name="ObjectShortName">iColCountBReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iCountEnable" type="logic">
+      <obj_property name="ElementShortName">iCountEnable</obj_property>
+      <obj_property name="ObjectShortName">iCountEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iRowCountAEnable" type="logic">
+      <obj_property name="ElementShortName">iRowCountAEnable</obj_property>
+      <obj_property name="ObjectShortName">iRowCountAEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iColCountAEnable" type="logic">
+      <obj_property name="ElementShortName">iColCountAEnable</obj_property>
+      <obj_property name="ObjectShortName">iColCountAEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iRowCountBEnable" type="logic">
+      <obj_property name="ElementShortName">iRowCountBEnable</obj_property>
+      <obj_property name="ObjectShortName">iRowCountBEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iColCountBEnable" type="logic">
+      <obj_property name="ElementShortName">iColCountBEnable</obj_property>
+      <obj_property name="ObjectShortName">iColCountBEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iColCountA" type="array">
+      <obj_property name="ElementShortName">iColCountA[3:0]</obj_property>
+      <obj_property name="ObjectShortName">iColCountA[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iRowCountA" type="array">
+      <obj_property name="ElementShortName">iRowCountA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">iRowCountA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iColCountB" type="array">
+      <obj_property name="ElementShortName">iColCountB[4:0]</obj_property>
+      <obj_property name="ObjectShortName">iColCountB[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iCount" type="array">
+      <obj_property name="ElementShortName">iCount[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iCount[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iMacReset" type="logic">
+      <obj_property name="ElementShortName">iMacReset</obj_property>
+      <obj_property name="ObjectShortName">iMacReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iMacEnable1" type="logic">
+      <obj_property name="ElementShortName">iMacEnable1</obj_property>
+      <obj_property name="ObjectShortName">iMacEnable1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadDataA" type="array">
+      <obj_property name="ElementShortName">iReadDataA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadDataA[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadDataB" type="array">
+      <obj_property name="ElementShortName">iReadDataB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadDataB[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iMacResult1" type="array">
+      <obj_property name="ElementShortName">iMacResult1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iMacResult1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iMacEnable2" type="logic">
+      <obj_property name="ElementShortName">iMacEnable2</obj_property>
+      <obj_property name="ObjectShortName">iMacEnable2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadDataC" type="array">
+      <obj_property name="ElementShortName">iReadDataC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadDataC[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iReadDataTemp" type="array">
+      <obj_property name="ElementShortName">iReadDataTemp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadDataTemp[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_IntMatProCore_16x16_8bits/uut_IntMatProCore/iMacResult2" type="array">
+      <obj_property name="ElementShortName">iMacResult2[55:0]</obj_property>
+      <obj_property name="ObjectShortName">iMacResult2[55:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
