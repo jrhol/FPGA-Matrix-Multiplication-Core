@@ -7,7 +7,7 @@ Input matrix: A, B, C - Size: 16 x 16 - 8 bits (Signed)
 Output matrix: D - Size: 16 x 16 - 56 bits
 
 This matrix processing core is able to do matrix multiplication (Fig. 1) for matrixes with the size of 16 x 16 and an 8-bit signed integer for each element of the input matrixes (A, B and C). The design was verified via both behavioural and implementation simulations.
-<img width="920" alt="Screenshot 2024-08-06 at 14 35 22" src="https://github.com/user-attachments/assets/5d2a2028-d96d-4280-a035-bbb784fe4f80">
+<img width="1173" alt="Screenshot 2024-08-07 at 09 36 18" src="https://github.com/user-attachments/assets/2dce4150-3e7d-444d-af3e-a1570b051e9b">
 <p align=center> (Fig.1) </p>
 
                                                 
